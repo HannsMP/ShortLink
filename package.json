@@ -1,0 +1,21 @@
+{
+  "name": "Links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "cookie-parser": "1.4.6",
+    "dotenv": "16.4.5",
+    "express": "4.19.2"
+  },
+  "scripts": {
+    "mon": "nodemon app.js --delay 1 --ignore db_shortLinks.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
