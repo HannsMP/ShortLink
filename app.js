@@ -1,7 +1,6 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const { resolve } = require('path');
-// require('dotenv').config();
 
 const Generador = require('./Generador');
 
